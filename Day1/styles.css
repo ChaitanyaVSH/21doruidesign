@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #ccc;
+    padding: 50px;
+    /* Width is 80% of body as body is the parent */
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child {
+    background-color: #090;
+    
+    /* Just to bring the child element up as there is no content */
+    height: 250px;
+
+    /* width: 1600px; This causes to overflow the parent element */
+
+    /* Child element occupies 50% of parent element */
+    width: 50%;
+}
