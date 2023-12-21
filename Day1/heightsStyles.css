@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #23424A;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+
+    /* Padding is used to get a more background space */
+    padding: 5em;
+    min-height: 250px;
+}
