@@ -8,3 +8,6 @@
 ### Day 2
 1. em vs rem units
 2. Avoiding em for font sizes
+
+### Day 3
+1. Adding in max width
