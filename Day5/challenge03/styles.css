@@ -14,7 +14,7 @@ body {
 
 .showcase {
     background-color: #23424A;
-    padding: 9.2rem 8rem;
+    padding: 9.3em 7.65em;
     color: #fff;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .btn {
-    padding: 1rem 3rem;
+    padding: 0.9em 2.5em;
     text-transform: uppercase;
     outline: none;
     border: none;
@@ -54,20 +54,20 @@ body {
 
 .main-content > h2 {
     font-size: 3.2rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.4em;
 }
 
 .main-content > p {
     font-size: 1.2rem;
     line-height: 1.8;
-    margin-bottom: 3rem;
+    margin-bottom: 3em;
 }
 
 
 @media(max-width: 1000px) {
 
     .showcase {
-        padding: 5rem 1rem;
+        padding: 5em 1em;
     }
 
     .main-content {
