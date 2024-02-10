@@ -17,3 +17,12 @@
 
 ### Day 5
 1. Practice on challenge 03
+
+### Day 6
+1. Review of all above
+2. Why we should not use ems on font-sizes
+
+### Day 7
+1. Challenge 03 solution
+   1. Do not need paddings on left and right when we are using showcase and container together
+2. Box sizing: Border-box explanation
