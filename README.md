@@ -26,3 +26,11 @@
 1. Challenge 03 solution
    1. Do not need paddings on left and right when we are using showcase and container together
 2. Box sizing: Border-box explanation
+
+### Day 8
+1. FlexBox basics
+   1. Many key points on flex -items
+      1. Flex items tries to be as small as possible based on it’s content
+      2. To force flex items to occupy the entire space it deserves, we need to set width:100%
+      3. flex:1 also behaves as above
+   2. 
