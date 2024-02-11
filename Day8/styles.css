@@ -56,6 +56,8 @@ p {
 .row {
     /* display: flex => flex container is parent */
     display: flex;
+
+    gap: 30px;
 }
 
 .col {
@@ -75,6 +77,14 @@ p {
     flex-shrink: 1;
     flex-basis: 0;
 }
+/*
+Another approach to add gap b/w flex items using combinator selectors.
+.col + .col {
+    margin-left: 30px;
+}
+*/
+
+
 /* UTILITY STYLES END */
 
 .showcase {

@@ -33,4 +33,6 @@
       1. Flex items tries to be as small as possible based on it’s content
       2. To force flex items to occupy the entire space it deserves, we need to set width:100%
       3. flex:1 also behaves as above
-   2. 
+2. Spacing b/w columns
+   1. Use gap
+   2. Use combinator selectors
