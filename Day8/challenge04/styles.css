@@ -37,6 +37,7 @@ body {
     background: #38CFD9;
 }
 
+/* This approach is more reusable as we can use this across other texts as well. */
 .purple {
     color: #87629A;
 }

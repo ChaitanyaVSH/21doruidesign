@@ -39,3 +39,8 @@
 2. Spacing b/w columns
    1. Use gap
    2. Use combinator selectors
+
+### Day 9
+1. FlexBox challenge solution
+   1. We can use either three-col and two-col approach or use specific class names for specific behaviours
+   2. Combine class names on same div to reduce the number of divs or html
