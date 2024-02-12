@@ -53,9 +53,14 @@ p {
     margin-bottom: 3em;
 }
 
+img {
+    max-width: 100%;
+}
+
 .row {
     display: flex;
     gap: 30px;
+    justify-content: space-between;
 }
 
 /* UTILITY STYLES END */
@@ -70,6 +75,7 @@ p {
 
 .showcase-image {
     align-self: flex-start;
+    width: 32%;
 }
 
 .container {
@@ -79,7 +85,7 @@ p {
 }
 
 .main-content {
-    width: 60%;
+    width: 62%;
 }
 
 @media(max-width: 1000px) {

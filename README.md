@@ -51,3 +51,5 @@
 3. Columns widths
    1. We can control individual colum width using width property
    2. We can control the space between columns using justify-content property
+4. Responsive image
+   1. Use max-width: 100% to let image shrink if it is inside a flex-item
