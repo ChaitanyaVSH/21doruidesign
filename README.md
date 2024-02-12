@@ -44,3 +44,10 @@
 1. FlexBox challenge solution
    1. We can use either three-col and two-col approach or use specific class names for specific behaviours
    2. Combine class names on same div to reduce the number of divs or html
+2. Adding a hero image
+   1. If we are placing image inside a div, the div stretches based on the tallest other flex-item, but not the image
+   2. If we are making image directly a flex item, then it stretches to the tallest element possible
+      1. We can control the alignment using align-self property
+3. Columns widths
+   1. We can control individual colum width using width property
+   2. We can control the space between columns using justify-content property
