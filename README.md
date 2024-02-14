@@ -41,7 +41,7 @@
    2. Use combinator selectors
 
 ### Day 9
-1. FlexBox challenge solution
+1. FlexBox challenge 01 solution
    1. We can use either three-col and two-col approach or use specific class names for specific behaviours
    2. Combine class names on same div to reduce the number of divs or html
 2. Adding a hero image
@@ -53,3 +53,6 @@
    2. We can control the space between columns using justify-content property
 4. Responsive image
    1. Use max-width: 100% to let image shrink if it is inside a flex-item
+   2. Set align-self: start if image is directly the flex-item to prevent stretch effect on the image based on the space
+   3. If the image is set inside some div or span, there will be no stretch effect by default.
+5. FlexBox challenge 02
