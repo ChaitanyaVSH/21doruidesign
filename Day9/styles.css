@@ -71,7 +71,7 @@ img {
 
 .row {
     display: flex;
-    gap: 30px;
+    /* gap: 30px; */
     justify-content: space-between;
 }
 
@@ -92,13 +92,13 @@ img {
 }
 
 .main-content, .main-section {
-    width: 60%;
+    width: 62%;
 }
 
-.showcase-image {
+.showcase-image, .aside {
     /* If this is not set, image would stretch to the fullest. */
     align-self: flex-start;
-    width: 40%;
+    width: 35%;
 }
 
 .main-section {
@@ -106,7 +106,6 @@ img {
 }
 
 .aside {
-    width: 40%;
     text-align: center;
     background-color: #136C72;
     color: #FFF;
@@ -121,10 +120,5 @@ img {
 
     .showcase {
         padding: 5em 0;
-    }
-
-    .main-content {
-        width: 100%;
-        text-align: center;
     }
 }
