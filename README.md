@@ -57,11 +57,11 @@
    2. Set align-self: start if image is directly the flex-item to prevent stretch effect on the image based on the space
    3. If the image is set inside some div or span, there will be no stretch effect by default.
 5. FlexBox challenge 02
-   1. Using gap in FlexBox along with explicit widths on flex-items might make things unpredictable.
+   1. Using gap in FlexBox along with explicit widths on flex-items might make things unpredictable.s
 
 ### Day 10
 1. Deeper dive into FlexBox
 
 ### Day 11
 1. Using FlexBox for navigation
-2. 
+2. FlexBox challenge 03
