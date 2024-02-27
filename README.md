@@ -74,3 +74,5 @@
       1. margin-left: auto trick
          1. auto margin adjusts the available margin based on the left or right property specified
       2. Grouping different ul list and separating them using horizontal spacing properties
+   2. More improvements by adding logo
+      1. Pushing certain flex items all the way big by using width 100% trick or flex grow property
