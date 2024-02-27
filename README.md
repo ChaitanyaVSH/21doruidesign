@@ -65,3 +65,11 @@
 ### Day 11
 1. Using FlexBox for navigation
 2. FlexBox challenge 03
+   1. Using FlexBox for Navigation use cases
+   2. We can add space between the flex items using margin right/left, gap or .col + .col selector
+
+### Day 12
+1. Fancy with navigation
+   1. We can push the flex items to the right side by using
+      1. margin-left: auto trick
+         1. auto margin adjusts the available margin based on the left or right property specified
