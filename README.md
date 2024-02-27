@@ -73,3 +73,4 @@
    1. We can push the flex items to the right side by using
       1. margin-left: auto trick
          1. auto margin adjusts the available margin based on the left or right property specified
+      2. Grouping different ul list and separating them using horizontal spacing properties
