@@ -76,3 +76,8 @@
       2. Grouping different ul list and separating them using horizontal spacing properties
    2. More improvements by adding logo
       1. Pushing certain flex items all the way big by using width 100% trick or flex grow property
+   3. Centering things the easy way
+      1. Use the margin: 0 auto trick
+      2. Use the flex grow: 1 and Justify-content:center also
+2. FlexBox Challenge 04
+   1. 

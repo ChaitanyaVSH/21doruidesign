@@ -104,6 +104,14 @@ header {
     margin-left: auto;
 }
 
+.nav__list--primary {
+    flex-grow: 1;
+    justify-content: center;
+
+    /* or use margin trick */
+    /* margin: 0 auto; */
+}
+
 .nav__link {
     color: #fff;
     text-decoration: none;
