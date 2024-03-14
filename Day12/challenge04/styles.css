@@ -1,0 +1,59 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+/* Utility styles */
+/* Layout */
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.flex {
+    display: flex;
+}
+
+/* Typography */
+h1 {
+    font-family: "Playfair Display";
+    font-size: 3rem;
+    color: #824936;
+}
+h2 {}
+h3 {}
+p {}
+
+/* Colors */
+
+
+/* Main styles */
+header {
+    background-color: #F3EED9;
+    min-height: 660px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.header-content p {
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: lighter;
+}
