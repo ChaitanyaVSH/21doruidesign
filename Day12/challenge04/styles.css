@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@300;400&display=swap');
 
 * {
     box-sizing: border-box;
@@ -16,11 +16,15 @@ body {
 .container {
     max-width: 1128px;
     margin: 0 auto;
-    /* border: 1px solid red; */
 }
 
 .flex {
     display: flex;
+    gap: 40px;
+}
+
+.section_image {
+    max-width: 100%;
 }
 
 /* Typography */
@@ -29,11 +33,40 @@ h1 {
     font-size: 3rem;
     color: #824936;
 }
-h2 {}
-h3 {}
-p {}
+
+h2 {
+    font-family: "Playfair Display";
+    font-size: 2rem;
+    color: #824936;
+    margin-bottom: 0.8em;
+}
+
+p {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.4;
+}
+
+.textCenter {
+    text-align: center;
+}
 
 /* Colors */
+.darkBlue {
+    background-color: #222C2A;
+    color: #fff;
+}
+
+.darkBrown {
+    background-color: #824936;
+    color: #fff;
+}
+
+.lightCyan {
+    color: #F3EED9;
+}
 
 
 /* Main styles */
@@ -56,4 +89,12 @@ header {
     text-transform: uppercase;
     font-family: "Roboto";
     font-weight: lighter;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+.section-content > * {
+    flex: 1;
 }
