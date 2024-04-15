@@ -164,3 +164,27 @@ header {
     color: #fff;
     background-color: #136c72;
 }
+
+@media (max-width: 650px) {
+    .row {
+        /* Use display: block to remove flex nature on containers. */
+        display: block;
+        /* Flex direction also works, but this is a hacky approach. */
+        /* flex-direction: column; */
+    }
+
+    .hero__text,
+    .hero__img,
+    .primary-content,
+    .sidebar {
+        width: 100%;
+    }
+
+    .hero, .main {
+        /* text-align: center; */
+    }
+
+    .hero__img {
+        margin-top: 2em;
+    }
+}
