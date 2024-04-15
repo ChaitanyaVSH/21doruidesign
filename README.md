@@ -80,4 +80,9 @@
       1. Use the margin: 0 auto trick
       2. Use the flex grow: 1 and Justify-content:center also
 2. FlexBox Challenge 04
-   1. 
+
+### Day 15
+Media Queries
+1. Media types and Media features
+2. Mobile first vs Desktop first design
+3. Order of media queries matters
