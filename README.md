@@ -93,3 +93,8 @@ Media Queries
 ### Day 16
 What breakpoints to use ?
 https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/
+
+
+### Day 17
+The viewport meta tag
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
