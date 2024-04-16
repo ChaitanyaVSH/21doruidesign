@@ -165,7 +165,7 @@ header {
     background-color: #136c72;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
     .row {
         /* Use display: block to remove flex nature on containers. */
         display: block;

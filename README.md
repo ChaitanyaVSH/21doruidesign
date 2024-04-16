@@ -89,3 +89,7 @@ Media Queries
 1. Media types and Media features
 2. Mobile first vs Desktop first design
 3. Order of media queries matters
+
+### Day 16
+What breakpoints to use ?
+https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/
