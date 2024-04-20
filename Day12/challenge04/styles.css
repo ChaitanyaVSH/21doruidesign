@@ -9,6 +9,10 @@
 
 body {
     margin: 0;
+    font-family: "Roboto";
+    font-size: 1.3125rem;
+    line-height: 1.6;
+    color: #222C2A;
 }
 
 /* Utility styles */
@@ -29,14 +33,17 @@ body {
 }
 
 /* Typography */
-h1 {
+h1, h2 {
     font-family: "Playfair Display";
+    font-weight: 900;
+}
+
+h1 {
     font-size: 3rem;
     color: #824936;
 }
 
 h2 {
-    font-family: "Playfair Display";
     font-size: 2rem;
     color: #824936;
     margin-bottom: 0.8em;
@@ -44,10 +51,9 @@ h2 {
 
 p {
     font-family: "Roboto";
-    font-weight: 300;
     font-size: 1rem;
     letter-spacing: 0.1rem;
-    line-height: 1.4;
+    line-height: 1.6;
     margin-bottom: 1em;
 }
 
@@ -82,7 +88,7 @@ header {
 }
 
 .header-content {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
