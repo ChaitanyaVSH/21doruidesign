@@ -98,3 +98,6 @@ https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6
 ### Day 17
 The viewport meta tag
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+### Day 18
+FlexBox Challenge 04 solution

@@ -16,6 +16,7 @@ body {
 .container {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 2em;
 }
 
 .flex {
@@ -47,6 +48,7 @@ p {
     font-size: 1rem;
     letter-spacing: 0.1rem;
     line-height: 1.4;
+    margin-bottom: 1em;
 }
 
 .textCenter {
@@ -72,7 +74,7 @@ p {
 /* Main styles */
 header {
     background-color: #F3EED9;
-    min-height: 660px;
+    min-height: 60vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -80,7 +82,7 @@ header {
 }
 
 .header-content {
-    max-width: 60%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -98,4 +100,17 @@ section {
 .section-content > * {
     /* flex: 1; */
     width: 50%;
+}
+
+@media (max-width: 580px) {
+    .header-content {
+        width: 100%;
+    }
+
+    .section-content {
+        display: block;
+    }
+    .section-content > * {
+        width: 100%;
+    }
 }
