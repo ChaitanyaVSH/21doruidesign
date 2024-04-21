@@ -18,6 +18,11 @@ body {
     font-size: 1.3rem;
 }
 
+.fa-nav-icon {
+    color: white;
+    display: none;
+}
+
 img {
     max-width: 100%;
 }
@@ -166,6 +171,37 @@ header {
 }
 
 @media (max-width: 800px) {
+    .fa-nav-icon {
+        display: inline-block;
+        margin-left: auto;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
+    .nav {
+        display: none;
+        margin-left: -2em;
+    }
+
+    .nav__list {
+        display: block;
+        text-align: center;
+    }
+
+    .nav__list--primary {
+        margin-bottom: 2em;
+    }
+
+    .nav__item {
+        margin: 1.5em;
+    }
+
+    .visible {
+        display: block;
+    }
+
     .row {
         /* Use display: block to remove flex nature on containers. */
         display: block;
