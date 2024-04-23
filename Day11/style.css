@@ -21,6 +21,9 @@ body {
 .fa-nav-icon {
     color: white;
     display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 img {
@@ -56,9 +59,10 @@ h1 {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
+    position: relative;
 }
 
-.flex {
+.flexD {
     display: flex;
 }
 
@@ -79,6 +83,9 @@ h1 {
 header {
     background: #136c72;
     padding: .8em 0;
+    
+    /* This does the trick of placing the logo in center */
+    text-align: center;
 }
 
 .logo {
@@ -182,7 +189,7 @@ header {
 
     .nav {
         display: none;
-        margin-left: -2em;
+        margin-top: 1em;
     }
 
     .nav__list {
@@ -195,7 +202,7 @@ header {
     }
 
     .nav__item {
-        margin: 1.5em;
+        margin-bottom: 1.5em;
     }
 
     .visible {
@@ -222,5 +229,9 @@ header {
 
     .hero__img {
         margin-top: 2em;
+    }
+
+    .flexD {
+        display: block;
     }
 }
